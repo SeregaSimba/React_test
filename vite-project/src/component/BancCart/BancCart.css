@@ -1,0 +1,51 @@
+.banc-cart-container {
+  background: var(--purpure-gradient);
+  box-shadow: 2px 2px 10px 1px #a3a3a3;
+  border-radius: 1em;
+  position: relative;
+  color: white;
+  padding: 0.5em;
+  font-size: 0.8em;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.banc-cart-container:hover {
+  background: var(--purpure-gradient);
+  box-shadow: 2px 2px 10px 1px #03fb28;
+  border-radius: 1em;
+  position: relative;
+  color: white;
+  padding: 0.5em;
+  font-size: 0.8em;
+  transition: 1s;
+}
+
+.master-cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+}
+
+.title-cart {
+  line-height: 1em;
+}
+
+.bancCart-mas-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bancCart-mas {
+}
+
+.span-mas {
+  width: 2em;
+}
+
+.span-mas-2 {
+  background-color: green;
+  border-radius: 1em;
+}

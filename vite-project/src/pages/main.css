@@ -1,0 +1,12 @@
+.main-container {
+  display: flex;
+  height: 100%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+  gap: 1em;
+}

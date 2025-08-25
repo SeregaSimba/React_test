@@ -1,0 +1,25 @@
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  border-right: solid 1px var(--grey);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 1em;
+  color: var(--color-gold);
+  background-color: brown;
+  cursor: pointer;
+}
